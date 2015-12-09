@@ -5,3 +5,14 @@ NAV
 /******************************************************************
 PAGE ACCUEIL
 ******************************************************************/
+.wrapper-info{
+  height: 488px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+}
+.inner{
+  resize: vertical;
+}
