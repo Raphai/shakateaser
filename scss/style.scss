@@ -1,0 +1,39 @@
+//@import "modules/bootstrap";
+//@import "modules/ionicons";
+//@import "modules/animate";
+//@import "partials/variables";
+//@import "partials/typography";
+//@import "partials/mixins";
+
+@import "breakpoints/base";
+
+@media only screen and (min-width: 480px) {
+	@import "breakpoints/480up";
+} // end of media query
+
+@media only screen and (min-width: 768px) {
+	@import "breakpoints/768up";
+} // end of media query
+
+@media only screen and (min-width: 992px) {
+	@import "breakpoints/992up";
+} // end of media query
+
+@media only screen and (min-width: 1200px) {
+	@import "breakpoints/1200up";
+} // end of media query
+
+@media only screen and (min-width: 1900px) {
+	@import "breakpoints/1900up";
+} // end of media query
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-device-pixel-ratio: 1.5) {
+	@import "breakpoints/2x";
+} // end of media query
+
+@media print {
+	// styles in print.scss
+	@import "partials/print";
+}

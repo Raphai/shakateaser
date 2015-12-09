@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'latoreg';
+  src: url('../fonts/lato-regular-webfont.eot');
+  src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lato-regular-webfont.woff') format('woff'),
+  url('../fonts/lato-regular-webfont.ttf') format('truetype'),
+  url('../fonts/lato-regular-webfont.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'latothin';
+  src: url('../fonts/lato-thin-webfont.eot');
+  src: url('../fonts/lato-thin-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lato-thin-webfont.woff') format('woff'),
+  url('../fonts/lato-thin-webfont.ttf') format('truetype'),
+  url('../fonts/lato-thin-webfont.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'latobold';
+  src: url('../fonts/lato-bold_0-webfont.eot');
+  src: url('../fonts/lato-bold_0-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lato-bold_0-webfont.woff') format('woff'),
+  url('../fonts/lato-bold_0-webfont.ttf') format('truetype'),
+  url('../fonts/lato-bold_0-webfont.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// font stacks
+$sans-serif:  Helvetica, Arial, sans-serif;
+
+/*
+some nice typographical defaults
+more here: http://www.newnet-soft.com/blog/csstypography
+*/

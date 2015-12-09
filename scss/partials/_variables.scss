@@ -1,0 +1,41 @@
+/*********************
+COLORS
+Need help w/ choosing your colors? Try this site out:
+http://0to255.com/
+*********************/
+$black:             #323944;
+$white:             #fff;
+$blue:              #375a94;
+$bluelight:         #597cb5;
+$yellow:            #f9e431;
+
+$light-gray:        #f8f9fa;
+$gray:              #5c5e63;
+$meta-gray:         #9fa6b4;
+$tan:               #eceee5;
+$green:             #279f82;
+$green_menu:        #60bca5;
+$green_menu_opacity: rgba(#60bca5,0.5);
+$green_titre:       #31554c;
+$green_under_title: #189677;
+$greendark:         #20332E;
+$bones-pink:        #f01d4f;
+
+$border-color:      #ccc;
+$disabled-gray:     #cfcfcf;
+
+$alert-yellow:      #ebe16f;
+$alert-red:         #fbe3e4;
+$alert-green:       #e6efc2;
+$alert-blue:        #d5edf8;
+
+$link-color:        #ff4c80;
+$link-hover:        darken($link-color, 9%);
+
+$text-color:        $gray;
+
+/*
+Here's a great tutorial on how to
+use color variables properly:
+http://sachagreif.com/sass-color-variables/
+*/

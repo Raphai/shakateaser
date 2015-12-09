@@ -1,0 +1,55 @@
+body{
+	font-family: Verdana, Arial, Sans-Serif;	
+	color:#000;
+	text-align: center;
+	background: #fff;
+
+	padding:0;
+	margin:0; 
+}
+
+@media only screen and (min-width: 768px) { 
+	body{
+		background: white;
+	}
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+}
+
+.container{ 
+}
+
+#logo{
+	display: block;
+	margin: 0 auto;
+	max-width:80%;
+}
+h1{
+ 
+	margin:40px 0;
+	font-weight: normal;
+	color:#0a193f;
+	font-size: 1.3em;
+}
+a{
+	color:#5b7dd3;
+	text-decoration: none;
+}
+.link-credit{
+ 
+	font-size: 10px;
+	text-decoration: none;
+	color:#0a193f;
+}
+.p1{
+	color:#0a193f;
+}
+.facebook-wrapper{
+	width: 350px;
+	max-width: 100%;
+	margin: 30px auto;
+}
